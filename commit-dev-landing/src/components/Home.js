@@ -1,9 +1,12 @@
 import React from 'react';
+import ImageSeo from '../images/seo.png';
+import ImageSistemas from '../images/sistemas-web.png';
+import ImageMobile from '../images/mobile.png';
 
 const Home = () => {
   return (
     <section id="home" className="bg-black py-16 px-8">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-rigth w-full">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-right w-full">
         {/* Div do Título (h2) */}
         <div className="flex-1">
           <h2 className="text-3xl font-bold text-[#f54a0f] mb-4 font-roboto">
@@ -12,7 +15,7 @@ const Home = () => {
             é essencial para o seu negócio?
           </h2>
         </div>
-        
+
         {/* Parágrafo (p) */}
         <div className="flex-1">
           <p className="text-lg text-gray-100 font-roboto">
@@ -37,12 +40,8 @@ const Home = () => {
       <div className="flex flex-col md:flex-row items-center justify-between gap-20 mt-16">
         {/* Div Esquerda - Parágrafo e Botão */}
         <div className="flex-1 text-center md:text-right">
-          <p className="text-lg text-[#f54a0f] font-roboto mb-4">
-          Vamos transformar sua ideia!
-          </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">
-            Clique Aqui
-          </button>
+          <p className="text-lg text-[#f54a0f] font-roboto mb-4">Vamos transformar sua ideia!</p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">Clique Aqui</button>
         </div>
 
         {/* Div Direita - Lista */}
@@ -53,6 +52,69 @@ const Home = () => {
             <li>Design responsivo e amigável</li>
             <li>Estratégias de marketing digital personalizadas</li>
           </ul>
+        </div>
+      </div>
+
+      {/* Novo Título e Conteúdo */}
+      <div className="mt-16">
+        <h2 className="text-3xl font-bold text-gray-100 mb-8 text-center font-roboto">
+          Apenas um site bonito não basta, ele precisa ser encontrado
+        </h2>
+
+        {/* Seção com imagem à esquerda e texto à direita */}
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="flex-1 text-right">
+            <img
+              src={ImageSeo}
+              alt="Exemplo de site"
+              className="w-full max-w-[300px] max-h-[300px] rounded-lg mx-auto"
+            />
+          </div>
+          <div className="flex-1">
+            <p className="text-lg text-gray-100 font-roboto">
+              Por isso, desenvolvemos sites otimizados para SEO (Search Engine Optimization), garantindo que sua
+              empresa apareça nas primeiras páginas do Google. Com técnicas avançadas, criamos conteúdo relevante,
+              estruturação estratégica e velocidade aprimorada para destacar sua marca no ambiente digital,
+              aumentando seu tráfego orgânico.
+              <br />
+              Seja visto. Seja encontrado. Cresça com SEO!
+            </p>
+          </div>
+        </div>
+
+        {/* Separador com Título */}
+        <h2 className="text-3xl font-bold text-gray-100 my-8 text-center font-roboto">
+          Mais do que apenas sites...
+        </h2>
+
+        {/* Imagem à esquerda com texto à direita superior e nova imagem abaixo */}
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="flex-1 text-right">
+            <img
+              src={ImageSistemas}
+              alt="Exemplo de design"
+              className="w-full max-w-[300px] max-h-[300px] rounded-lg mx-auto"
+            />
+          </div>
+          <div className="flex-1">
+            <p className="text-lg text-gray-100 font-roboto text-center">
+            ...criamos sistemas web completos, integrações de sistemas...
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row items-center gap-8 mt-8">
+          <div className="flex-1">
+            <p className="text-lg text-gray-100 font-roboto text-center">
+            ...aplicativos para gestão do seu negocio...            </p>
+          </div>
+          <div className="flex-1">
+            <img
+              src={ImageMobile}
+              alt="Exemplo de performance"
+              className="w-full max-w-[300px] max-h-[300px] rounded-lg mc-auto"
+            />
+          </div>          
         </div>
       </div>
     </section>
