@@ -2,7 +2,7 @@
   "name": "commit-dev-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lucasveloz0.github.io/commit-dev/",
+  "homepage": "https://commit.dev.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

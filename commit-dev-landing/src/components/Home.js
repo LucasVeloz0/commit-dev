@@ -9,7 +9,7 @@ const Home = () => {
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-right w-full">
         {/* Div do Título (h2) */}
         <div className="flex-1">
-          <h2 className="text-3xl font-bold text-[#f54a0f] mb-4 font-roboto">
+          <h2 className="text-3xl font-bold text-[#f54a0f] mb-4 font-roboto ">
             Por que ter um site profissional
             <br />
             é essencial para o seu negócio?
@@ -17,8 +17,8 @@ const Home = () => {
         </div>
 
         {/* Parágrafo (p) */}
-        <div className="flex-1">
-          <p className="text-lg text-gray-100 font-roboto">
+        <div className="flex-1 px-5 ">
+          <p className="text-lg text-gray-100 font-roboto max-w-2xl">
             Ter um site profissional não é apenas um diferencial, é uma necessidade. Seu site será a porta de entrada para clientes conhecerem sua
             empresa, seus serviços e produtos. Ele é uma vitrine aberta 24 horas por dia, oferecendo informações relevantes e mostrando que sua marca
             está preparada para atender às demandas.
@@ -57,7 +57,7 @@ const Home = () => {
 
       {/* Novo Título e Conteúdo */}
       <div className="mt-16">
-        <h2 className="text-3xl font-bold text-gray-100 mb-8 text-center font-roboto">
+        <h2 className="text-3xl font-bold text-gray-100 mb-8 text-center font-roboto ">
           Apenas um site bonito não basta, ele precisa ser encontrado
         </h2>
 
@@ -70,8 +70,8 @@ const Home = () => {
               className="w-full max-w-[300px] max-h-[300px] rounded-lg mx-auto"
             />
           </div>
-          <div className="flex-1">
-            <p className="text-lg text-gray-100 font-roboto">
+          <div className="flex-1 px ">
+            <p className="text-lg text-gray-100 font-roboto max-w-2xl ">
               Por isso, desenvolvemos sites otimizados para SEO (Search Engine Optimization), garantindo que sua
               empresa apareça nas primeiras páginas do Google. Com técnicas avançadas, criamos conteúdo relevante,
               estruturação estratégica e velocidade aprimorada para destacar sua marca no ambiente digital,
