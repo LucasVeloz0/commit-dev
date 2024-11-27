@@ -43,7 +43,7 @@ const Header = () => {
 
       {/* Conteúdo Central */}
       <div className="bg-white text-[#203359] text-center px-8 py-16 rounded-lg shadow-lg mx-8 mt-4 text-[#203359]">
-        <h1 className="text-4xl font-regular mb-4 font-michroma">Vou criar seu site.</h1>
+        <h1 className="text-4xl font-regular mb-4 font-michroma">Contrate a Commit.dev para criar seu site !</h1>
         <h2 className="text-2xl font-semibold mb-4 font-roboto">Seu negócio será visível por seus clientes com seu site rápido e seguro.</h2>
         <p className="text-lg mb-6 font-roboto">
         Criamos soluções web e aplicativos de alto desempenho.
